@@ -1,14 +1,15 @@
 {
-  "name": "firesale",
+  "name": "firesaleandre",
   "version": "1.0.0",
   "description": "Completed code from [Electron in Action](http://bit.ly/electronjs).",
+  "productName": "Fire Sale",
   "main": "app/main.js",
   "dependencies": {
     "axios": "^0.21.1",
-    "electron": "^3.0.10",
     "marked": "^0.5.2"
   },
   "devDependencies": {
+    "electron": "^3.0.10",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
     "electron-packager": "^13.0.0",
@@ -17,7 +18,8 @@
   },
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . --out=\"build\" --overwrite --icon=\"icons\\Icon.ico \""
   },
   "repository": {
     "type": "git",

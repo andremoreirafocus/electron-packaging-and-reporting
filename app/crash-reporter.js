@@ -1,5 +1,5 @@
 const { crashReporter } = require('electron');
-const request = require('request');
+// const request = require('request');
 const manifest = require('../package.json');
 const axios = require('axios');
 
