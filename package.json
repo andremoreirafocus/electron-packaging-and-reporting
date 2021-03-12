@@ -2,7 +2,7 @@
   "name": "firesaleandre",
   "version": "1.0.0",
   "description": "Completed code from [Electron in Action](http://bit.ly/electronjs).",
-  "productName": "Fire Sale",
+  "productName": "FireSale",
   "main": "app/main.js",
   "dependencies": {
     "axios": "^0.21.1",
